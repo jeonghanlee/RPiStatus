@@ -50,3 +50,5 @@ Payara-src
 *-amazon-corretto-*_amd64.deb*
 *.service
 *.list
+*.o
+1WireBin
