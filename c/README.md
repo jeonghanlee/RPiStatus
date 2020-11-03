@@ -7,6 +7,11 @@ This is the simple and modified example which can read two ds18b20 sensors attac
 
 I bought the IZOKEE 5 Pack DS18B20 Temperature Sensor Digital Thermal Stainless Steel Tube at Amazon. That is the most cheapest one which I've found. And two sensors are used for this demo.
 
+|![OWS](oneWires_with_rpi.png)|
+| :---: |
+|**Figure 1** Raspberry Pi 2 with two 1-Wire sensors.|
+
+
 ## Build
 
 ```bash
@@ -29,6 +34,8 @@ make
 make clean
 make distclean
 ```
+
+
 
 ## References
 [1] https://www.waveshare.com/wiki/Raspberry_Pi_Tutorial_Series:_1-Wire_DS18B20_Sensor
