@@ -1,4 +1,4 @@
-# RPiStatus
+# rpiStats
 
 Raspberry PI [1] is the great system. Thanks to the mordern Linux Kernel sysfs [2], the CPU thermal zone temerature and 1-Wire sensors can be accessiable through sysfs. Thus, this repository is the EPICS IOC of them (CPU thermal zone, and 1-Wire sensor) for Raspberry PI without any dependent libraries.
 
