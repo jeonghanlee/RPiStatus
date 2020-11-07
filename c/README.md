@@ -14,7 +14,7 @@ I bought the IZOKEE 5 Pack DS18B20 Temperature Sensor Digital Thermal Stainless 
 
 ## CPU (Thermal Zone) Temperature
 
-Generic Thermal Sysfs proivdes a thermal zone temperature as millidegree Celsius [2]. Each system may have multiple `thermal_zone` in `/sys/class/thermal/` path. We may say this temperature is a CPU temperature if `type is `x86_pkg_temp`, `cpu-thermal` or similar one.
+Generic Thermal Sysfs proivdes a thermal zone temperature as millidegree Celsius [2]. Each system may have multiple `thermal_zone` in `/sys/class/thermal/` path. We may say this temperature is a CPU temperature if the thermal zone type is `x86_pkg_temp`, `cpu-thermal` or similar one.
 
 ### `Intel(R) Core(TM) i5-4570R CPU @ 2.70GHz`
 
