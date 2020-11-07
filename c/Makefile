@@ -35,19 +35,23 @@ VPATH = $(SRCPATH)
 
 CFLAGS += -I $(INCPATH)
 
-BIN_SRCS := ds18b20.c
+DS18B20_SRCS := ds18b20.c
+THERMAL_SRCS := thermalzone.c
 
-BIN_OBJS :=$(addsuffix .o,$(basename $(BIN_SRCS)))
+DS18B20_OBJS :=$(addsuffix .o,$(basename $(DS18B20_SRCS)))
+THERMAL_OBJS :=$(addsuffix .o,$(basename $(THERMAL_SRCS)))
 
-
-CFLAGS := -Wall 
+CFLAGS := -Wall -g
 LDFLAGS := 
 
-BINS := 1WireBin
+BINS := 1WireBin ThermalZone
 
 build: $(BINS)
 
-1WireBin: $(BIN_OBJS)
+1WireBin: $(DS18B20_OBJS)
+	$(LINK.c) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+ThermalZone: $(THERMAL_OBJS)
 	$(LINK.c) $^ $(LOADLIBES) $(LDLIBS) -o $@
 
 .c.o :
