@@ -85,7 +85,7 @@ drwxr-xr-x 2 root root    0 Nov  7 17:04 power
 -rw-r--r-- 1 root root 4096 Nov  7 17:04 alarms
 ```
 
-## `temperature`millidegrees Celsius (R) 
+## `temperature` millidegrees Celsius (R) 
 
 ```bash
 $ cat temperature 
@@ -110,6 +110,7 @@ $ cat temperature
 This change is tempoary. We can save them into EEPROM. But the EEPROM has a limited amount of writes (>50k).
 
 
+     3	28-0301a279b4f9
 
 ```
 # more temperature 
