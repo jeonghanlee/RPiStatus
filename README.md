@@ -15,7 +15,7 @@ See [c/README.md](c/README.md)
 
 ## Setup
 
-|![OWS](docs/FiveW_with_rpi.png)|
+|![FIVEOWS](docs/Five1W_with_rpi.png)|
 | :---: |
 |**Figure 1** Raspberry Pi 2 with five 1-Wire sensors.|
 
